@@ -42,7 +42,7 @@ const nameOutput = document.querySelector("#name-output")
 nameInput.addEventListener("input", ()=> {
     const name = nameInput.value
     if (name.trim() === '') {
-        nameOutput.textContent = "незнайомець"
+        nameOutput.textContent = "незнайомцю"
     } else {
         nameOutput.textContent = name
     }
